@@ -125,7 +125,7 @@ img{
     padding: 12px 40px;
     border-radius: 50px;
     transition: 0.5s;
-    margin-top: 30px;
+    margin-top: 20px;
     transform: translate(70px);
     color: #fff;
     background: #34b7a7;
@@ -350,6 +350,11 @@ label{
 @media (max-width:768px){
     #hero{
         width: 100%;
+    }
+}
+@media (max-width:768px){
+    .botonesIndex{
+        transform: translate(15px);
     }
 }
 /*iconos redes sociales*/
