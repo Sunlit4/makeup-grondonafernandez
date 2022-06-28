@@ -17,7 +17,7 @@ a:hover{
     color: #232b2a;
     text-decoration: none;
 }
-h1{
+h2{
     color:#434447;
     font-size: 32px;
     text-transform: uppercase;
@@ -27,12 +27,6 @@ h1{
     text-align: center;
     position: relative;
     font-weight: bold;
-}
-h2{
-    color: #6f6f6f;
-    margin: 10px 0 0 0;
-    font-size: 22px;
-    text-align: center;
 }
 img{
     width: 100%;
@@ -213,9 +207,11 @@ img{
     font-size: 16px;
     color:#F1E0C2;
 }
-.card h2{
+.card h3{
+    margin-top: 10px;
     font-weight: 600;
     color:#34b7a7;
+    font-size: 18px
 }
 .cardLink{
     font-weight: bold;
@@ -224,16 +220,17 @@ img{
 .cardLink:hover{
     color:#F1E0C2; 
 }
-.card h3{
-    font-size: 18px;
-}
 /*galeria*/
-.art{
-    background-color: #F1E0C2;
-}
-.art h2{
+.frase{
+    color: #6f6f6f;
+    margin: 10px 0 0 0;
+    font-size: 22px;
+    text-align: center;
     font-weight: bold;
     font-style: italic;
+}
+.art{
+    background-color: #F1E0C2;
 }
 .portfolio{
     width: 100%;
